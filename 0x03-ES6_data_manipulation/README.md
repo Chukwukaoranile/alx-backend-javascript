@@ -57,7 +57,7 @@ in your project directory:
 **Configuration files**
 
 *package.json*
-
+```
 {
   "scripts": {
     "lint": "./node_modules/.bin/eslint",
@@ -77,10 +77,10 @@ in your project directory:
     "jest": "^24.9.0"
   }
 }
-
+```
 
 *babel.config.js*
-
+```
 module.exports = {
   presets: [
     [
@@ -93,10 +93,10 @@ module.exports = {
     ],
   ],
 };
-
+```
 *.eslintrc.js*
 
-
+```
 module.exports = {
   env: {
     browser: false,
@@ -134,7 +134,7 @@ module.exports = {
     }
   ]
 };
-
+```
 and…
 
 *Don’t forget to run $ npm install when you have the package.json*
