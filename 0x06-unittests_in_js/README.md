@@ -110,7 +110,7 @@ bob@dylan:~$
 
 * GitHub repository: `alx-backend-javascript`
 * Directory: `0x05-Node_JS_basic`
-* File: `0-console.js`
+* File: `package.json, 0-calcul.js, 0-calcul.test.js`
 
 ### 1. Combining descriptions
 
@@ -157,8 +157,8 @@ bob@dylan:~$
 **Repo:**
 
 * GitHub repository: `alx-backend-javascript`
-* Directory: `0x05-Node_JS_basic`
-* File:`1-stdin.js`
+ttests_in_js* Directory: ``
+* File:`1-calcul.js, 1-calcul.test.js`
 
 ### 2. Basic test using Chai assertion library
 
@@ -181,6 +181,11 @@ While using Node assert library is completely valid, a lot of developers prefer 
 -   You should be able to run the test suite using  `npm test 2-calcul_chai.test.js`
 -   Every test should pass without any warning
 
+**Repo:**
+
+* GitHub repository: `alx-backend-javascript`
+* nDirectory: `0x06-unittests_in_js`
+* File: `1-calcul.js, 1-calcul.test.js`
 
 ### 3. Spies
 
@@ -215,6 +220,11 @@ Spies are a useful wrapper that will execute the wrapped function, and log usefu
 -   Spies are really useful and allow you to focus only on what your code is doing and not the downstream APIs or functions
 -   Remember that integration test is different from unit test. Your unit test should test your code, not the code of a different function
 
+**Repo:**
+
+* GitHub repository: `alx-backend-javascript`
+* Directory: `0x06-unittests_in_js`
+* File: `4-payment.js, 4-payment.test.js`
 
 ### 4. Stubs
 
@@ -242,6 +252,11 @@ Stubs are similar to spies. Except that you can provide a different implementati
 -   Using stubs allows you to greatly speed up your test. When executing thousands of tests, saving a few seconds is important
 -   Using stubs allows you to control specific edge case (e.g a function throwing an error or returning a specific result like a number or a timestamp)
 
+**Repo:**
+
+* GitHub repository: `alx-backend-javascript`
+* Directory: `0x06-unittests_in_js`
+* File: 5-payment.js, 5-payment.test.js
 
 ### 5. Hooks
 
@@ -267,6 +282,11 @@ Hooks are useful functions that can be called before execute one or all tests in
 -   You should use only one  `spy`  to complete this exercise
 -   You should use a  `beforeEach`  and a  `afterEach`  hooks to complete this exercise
 
+**Repo:**
+
+* GitHub repository: `alx-backend-javascript`
+* Directory: `0x06-unittests_in_js`
+* File: `6-payment_token.js, 6-payment_token.test.js`
 
 ### 6. Async tests with done
 
@@ -294,6 +314,11 @@ Look into how to support async testing, for example when waiting for the answer 
 -   Every test should pass without any warning
 -   You should use the  `done`  callback to execute this test
 
+**Repo:**
+
+* GitHub repository: `alx-backend-javascript`
+* Directory: `0x06-unittests_in_js`
+* File: 6-payment_token.js, 6-payment_token.test.js
 
 ### 7. Skip
 
@@ -354,7 +379,11 @@ describe('Testing numbers', () => {
 
 -   You should be able to run the test suite using  `npm test 7-skip.test.js`
 -   Every test should pass without any warning
+**Repo:**
 
+* GitHub repository: `alx-backend-javascript`
+* Directory: `0x06-unittests_in_js`
+* File: `7-skip.test.js`
 
 ### 8. Basic Integration testing
 
@@ -442,6 +471,11 @@ bob@dylan:~/8-api$
 -   You should be able to run the test suite using  `npm test api.test.js`
 -   Every test should pass without any warnings
 
+**Repo:**
+
+* GitHub repository: `alx-backend-javascript`
+* Directory: `0x06-unittests_in_js`
+* File: `8-api/package.json, 8-api/api.js, 8-api/api.test.js`
 
 ### 9. Regex integration testing
 
@@ -579,5 +613,5 @@ bob@dylan:~$
 **Repo:**
 
 * GitHub repository: `alx-backend-javascript`
-* Directory: `0x05-Node_JS_basic`
-* File: `full_server/utils.js, full_server/controllers/AppController.js, full_server/controllers/StudentsController.js, full_server/routes/index.js, full_server/server.js`
+* Directory: `0x06-unittests_in_js`
+* File: `10-api/api.js, 10-api/api.test.js, 10-api/package.json`
